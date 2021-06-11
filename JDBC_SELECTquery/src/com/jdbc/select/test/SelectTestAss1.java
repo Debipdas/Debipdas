@@ -33,7 +33,7 @@ public class SelectTestAss1{
 			//Class.forName("oracle.jdbc.driver.OracleDriver");  (Automatically stored)
 			
 			//Established
-			con=DriverManager.getConnection("jdbc:oracle:thin:@Sona:1522:xe","system","manager");
+			con=DriverManager.getConnection("jdbc:oracle:thin:@DESKTOP-DRTQSH7:1522:xe","SYSTEM","TIGER");
 			
 			if(con!=null)
 				//create statement

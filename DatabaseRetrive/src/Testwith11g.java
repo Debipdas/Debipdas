@@ -14,16 +14,16 @@ public class Testwith11g {
 		Statement st=con.createStatement();
 		ResultSet rs=st.executeQuery("Select * from Student");
 		System.out.println("Retriveing process started!!!!");
-		while(rs.next()!=false) {
+		//while(rs.next()!=false) {
 	     		
 			//System.out.println(rs.getInt(1)+" "+rs.getString(2));
 			//System.out.println(rs.getInt("ID")+" "+rs.getString("NAME"));
-			System.out.println(rs.getString("ID")+" "+rs.getString("NAME"));   
+			//System.out.println(rs.getString("ID")+" "+rs.getString("NAME"));   
 		}
-		System.out.println("Done");
-	rs.close();
-	st.close();
-	con.close();
-	}
+		//System.out.println("Done");
+//	rs.close();
+//	st.close();
+//	con.close();
+//	}
 
 }
